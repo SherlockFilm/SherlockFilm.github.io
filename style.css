@@ -1,0 +1,124 @@
+body {
+    background: #333;
+    margin: 0 0 0 0;
+}
+
+h1{
+    font-size: 5vw;
+}
+
+
+
+h2{
+    font-size: 2vw;
+}
+.log{
+    width: 14vw;
+    height: 14vw;
+    margin-left: 43%;
+}
+
+
+.prewiu{
+    margin: ;
+    color: #fc0;
+    font-family: "Oswald";
+    text-align: center
+}
+
+.prewin{
+    color: #fc0;
+    font-family: "Oswald";
+    text-align: center
+}
+
+
+
+.seson{
+    color: #fc0;
+    font-family: "Oswald";
+    margin-left: 5%;
+    font-size: 2.8vw;
+    position: absolute;
+    margin-top: 5%;
+}
+
+
+.img{
+    margin:2vw;
+    border-radius: 2vw;
+    transition: 0.5s;
+    width: 19vw ;
+    height: 12vw;
+    cursor: pointer;
+    
+}
+
+.img:hover{
+    border-radius: 0px;
+    transition: 1s;
+    height: 13vw;
+
+
+}
+
+
+.str{
+    color: yellow;
+    background: yellow;
+}
+
+.han{
+    margin-left: 17%;
+}
+
+.name{
+    color: #fc0;
+    font-family: "Oswald";
+    text-align: center ;
+    margin-left: 10vw ;
+    margin-right: 10vw ;
+    font-size: 1vw;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+.qwename{
+    text-align: center
+
+}
+
+
+
+@media (max-width: 768px) {
+    .img{
+        margin: 0vw;
+        width: 25vw;
+        height: 15.8vw;
+        }
+    .img:hover{
+        height: 17.1vw;
+
+    }
+    .han{
+        margin-left: 12.5%;
+        }
+    .seson{
+            margin-left: 2%;
+            margin-top: 5%;
+        }
+    h1{font-size: 7vw;
+        }
+    h2{
+        font-size: 3vw;
+    }
+    .prewiu{
+        margin: 0 0 0 0;
+    }
+    .log{
+        width: 20vw;
+        height: 20vw;
+        margin-left: 40%;
+    }
+
+    }
